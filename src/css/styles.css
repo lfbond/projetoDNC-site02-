@@ -1,0 +1,105 @@
+/* CONFIGURAÇÃO BÁSICA DO CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  /* colors */
+  --botton: rgb(31, 124, 255);
+  --write: rgb(255, 255, 255);
+  
+  --title-red: rgb(247, 92, 78);
+  --title-black: rgb(0, 0, 0);
+  --text-color: rgb(87, 84, 85);
+
+  /* background-color: var(--body-color); COMO COLOCAR AS CORES */
+}
+
+body {
+  margin: 0 15%;
+}
+
+.container{
+display: grid;
+grid-auto-flow: column;
+grid-auto-columns: 1fr;
+}
+
+/* ************************************** */
+/* CONFIGURAÇÃO DO ARQUIVO ATUAL DO SITE */
+/* inicio do Header */
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#logo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 2.62rem;
+  text-decoration-line: underline;
+  color: var(--title-black);
+  margin: 2.5rem 0;
+}
+
+#menu {
+  align-content: center;
+  justify-content: right;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 1.25rem;
+}
+
+#menu ul li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+/* ************************************** */
+/* inicio do main */
+#headerCta p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: var(--text-color);
+}
+
+#buttonCta {
+  background-color: var(--botton);
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  color: var(--write);
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* ************************************************** */
+/* Inicio das medias screen */
+/* max-width:  */
